@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(152, 243, 231);
+}
+
+#title{
+    border: 2px solid black;      /* borde */
+    font-size: 2em;                 /* tamaño de fuente */
+    color: rgb(74, 238, 74);      /* color a la fuente */
+    width: 58vw;                    /**/
+    margin: auto;                   /**/
+    padding: 0px 1em 0px 0px;       /**/
+}
+
+.contenido{
+    font-size: 1em;
+    color:rgb(34, 31, 31)
+}

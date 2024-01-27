@@ -1,0 +1,31 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body,
+  div,
+  h1,
+  h2,
+  h3,
+  p,
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Agregar cualquier otro selector que desees reiniciar */
+  
+  /* Estilos específicos para tu aplicación */
+  /* A partir de aquí, puedes agregar tus propios estilos */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Agrega más estilos según sea necesario */
