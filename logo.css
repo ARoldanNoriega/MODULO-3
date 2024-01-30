@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(152, 243, 231);
+    background-color: rgb(182, 228, 160);
 }
 
 #title{
     border: 2px solid black;      /* borde */
     font-size: 2em;                 /* tamaño de fuente */
-    color: rgb(74, 238, 74);      /* color a la fuente */
+    color: rgb(112, 128, 196);      /* color a la fuente */
     width: 58vw;                    /**/
     margin: auto;                   /**/
     padding: 0px 1em 0px 0px;       /**/
@@ -14,4 +14,33 @@ body{
 .contenido{
     font-size: 1em;
     color:rgb(34, 31, 31)
+}
+
+#imagen{
+    width: 200px;
+    height: 200px;
+}
+
+.cards{
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 5%;
+    width: fit-content;
+    margin: auto;
+    padding: 0px 1em 2em 1em;
+    transition: 1s;
+    gap: 0.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#order{
+    border: 3px solid red;
+    margin: auto;
+    padding: 1em 1em 1em 1em;
+    width: 85vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
